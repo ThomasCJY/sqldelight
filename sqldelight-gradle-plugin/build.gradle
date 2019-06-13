@@ -34,7 +34,7 @@ dependencies {
 
   compileOnly gradleApi()
   implementation deps.plugins.kotlin
-  implementation deps.plugins.android
+  compileOnly deps.plugins.android
 
   testImplementation deps.junit
   testImplementation deps.truth
